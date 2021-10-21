@@ -38,6 +38,7 @@ html { box-sizing: border-box; }
 body {
 	margin: 0 auto;
 	font-family: 'Lora', serif;
+	color: #242424;
 	font-size: 18px;
 	line-height: 1.5;
 
@@ -53,7 +54,7 @@ h1, h2, h3 {
 }
 
 h2 {
-	margin-bottom: 40px;
+	/* margin-bottom: 40px; */
 	font-size: 36px;
 }
 
@@ -64,13 +65,15 @@ h3 {
 
 .section {
 	max-width: 1100px;
-	margin: 80px auto;
+	margin: 0 auto;
+	padding: 80px 0;
 }
 
 .header {
 	display: flex;
 	justify-content: space-between;
 	margin: 0 auto;
+	padding: 0;
 }
 
 .logo {
@@ -108,19 +111,20 @@ h3 {
 	background-position: center center;
 }
 
-.hero {
+.hero-headline {
 	color: white;
-	padding: 80px 40% 80px 0;
-	margin-top: 0;
+	padding-right: 40%;
 }
 
-.hero h1 {
+.hero-headline h1 {
+	
+	font-family: 'Playfair Display', serif;
 	font-size: 52px;
 	color: white;
 	margin-bottom: 50px;
 }
 
-.hero p {
+.hero-headline p {
 	font-size: 24px;
 	font-style: italic;
 }
@@ -131,7 +135,7 @@ h3 {
 
 }
 
-.welcome-left a {
+.welcome-left .button {
 	display: inline-block;
 	text-decoration: none;
 	border-radius: 30px;
@@ -141,8 +145,12 @@ h3 {
 	margin-top: 20px;
 }
 
-.welcome-left a:hover {
+.welcome-left .button:hover {
 	background-color: #d2567d;
+}
+
+.welcome-left {
+	padding-right: 30px;
 }
 
 .welcome-left,
@@ -160,7 +168,6 @@ h3 {
 	padding: 80px 0;
 }
 
-
 .products {
 	display: flex;
 	justify-content: space-between;
@@ -171,14 +178,6 @@ h3 {
 	border-radius: 5px 5px 0 0;
 }
 
-.card {
-	background-color: white;
-	width: calc((100% - 90px) / 4);
-	border-radius: 5px;
-	text-align: center;
-}
-
-
 .card-text p {
 	margin-bottom: 0;
 	font-size: 16px;
@@ -187,5 +186,34 @@ h3 {
 .card-text {
 	padding: 0 20px 20px 20px;
 }
+
+.card {
+	background-color: white;
+	width: calc((100% - 90px) / 4);
+	border-radius: 5px;
+	text-align: center;
+	box-shadow: 2px 2px 5px rgba(141, 141, 141, 0.301);
+}
+
+.baking {
+	display: flex;
+	justify-content: space-between;
+}
+
+.baking-left {
+	width: calc((100% - 30px) / 2)
+}
+
+.baking-right {
+	padding-left: 30px;
+}
+
+footer {
+	background-color: #303339;
+	color: white;
+	text-align: center;
+	padding: 30px 0;
+}
+
 
 
