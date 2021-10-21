@@ -7,8 +7,8 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet"> 
-	
-	<!-- Naše vlastní CSS -->
+
+<!-- Naše vlastní CSS -->
 	<link rel="stylesheet" href="style.css">
 </head>
 
@@ -40,8 +40,8 @@
 
 		<div class="section hero">
 		
-			<h1>Sladké potěšení z
-				kvalitních surovin</h1>
+			<h1>Sladké potěšení 
+				z kvalitních surovin</h1>
 
 			<p>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -55,20 +55,24 @@
 
 	<!-- sekce Vítejte v naší cukrárně -->
 
-	<section id="invitation">
+	<section id="welcome">
 
-		<div class="section invitation">
+		<div class="section welcome">
 
 			<!-- levý sloupec -->
-			<h2>Vítejte v naší cukrárně</h2>
+			<div class="welcome-left">
+				<h2>Vítejte v naší cukrárně</h2>
 
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus officia minima reiciendis beatae, quo consequatur blanditiis molestiae laborum, at porro ipsum soluta temporibus.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus officia minima reiciendis beatae, quo consequatur blanditiis molestiae laborum, at porro ipsum soluta temporibus.</p>
 
-			<a href="#">Naše výrobky</a>
-
+				<a href="#">Naše výrobky</a>
+			</div>
+			
 			<!-- pravý sloupec -->
-			<img src="images/cukrarka.jpg" alt="cukrářka">
+			<div>
+				<img class="welcome-right" src="images/cukrarka.jpg" alt="cukrářka">
+			</div>
 
 		</div>
 	</section>
@@ -81,26 +85,45 @@
 
 			<h2>Dnešní nabídka</h2>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+			
+			<div class="products">
 
-			<!-- produkt 1 -->
-			<img src="images/dort.jpg" alt="Šlehačkový dort s malinami">
-			<h3>Malinový dort</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				<!-- produkt 1 -->
+				<div class="card">
+					<img src="images/dort.jpg" alt="Šlehačkový dort s malinami">
+					<div class="card-text">
+						<h3>Malinový dort</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+					</div>
+				</div>	
 
-			<!-- produkt 2 -->
-			<img src="images/livance.jpg" alt="Lívance s ovocem">
-			<h3>Lívance s ovocem</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				<!-- produkt 2 -->
+				<div class="card">
+					<img src="images/livance.jpg" alt="Lívance s ovocem">
+					<div class="card-text">
+						<h3>Lívance s ovocem</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+					</div>
+				</div>
 
-			<!-- produkt 3 -->
-			<img src="images/kolac.jpg" alt="Dýňový koláč">
-			<h3>Dýňový koláč</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				<!-- produkt 3 -->
+				<div class="card">
+					<img src="images/kolac.jpg" alt="Dýňový koláč">
+					<div class="card-text">
+						<h3>Dýňový koláč</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+					</div>
+				</div>
 
-			<!-- produkt 4 -->
-			<img src="images/buchticka.jpg" alt="Buchtička s polevou">
-			<h3>Buchtička s polevou</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				<!-- produkt 4 -->
+				<div class="card">
+					<img src="images/buchticka.jpg" alt="Buchtička s polevou">
+					<div class="card-text">
+						<h3>Buchtička s polevou</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+					</div>
+				</div>
+			</div>
 
 		</div>
 
