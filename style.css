@@ -200,7 +200,8 @@ h3 {
 	justify-content: space-between;
 }
 
-.baking-left {
+.baking-left,
+.baking-right {
 	width: calc((100% - 30px) / 2)
 }
 
